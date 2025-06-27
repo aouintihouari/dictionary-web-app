@@ -1,0 +1,138 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+  font-family: "Inconsolata";
+  src: url("/assets/fonts/inconsolata/Inconsolata-VariableFont_wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("/assets/fonts/inter/Inter-VariableFont_slnt,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/assets/fonts/lora/Lora-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lora";
+  src: url("/assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@utilities {
+  .bg-gray-950 {
+    background-color: #050505;
+  }
+  .bg-gray-900 {
+    background-color: #1f1f1f;
+  }
+  .bg-gray-800 {
+    background-color: #2d2d2d;
+  }
+  .bg-gray-700 {
+    background-color: #3a3a3a;
+  }
+  .bg-gray-600 {
+    background-color: #757575;
+  }
+  .bg-gray-100 {
+    background-color: #e9e9e9;
+  }
+  .bg-gray-50 {
+    background-color: #f4f4f4;
+  }
+  .bg-white {
+    background-color: #fff;
+  }
+
+  .text-gray-950 {
+    color: #050505;
+  }
+  .text-gray-900 {
+    color: #1f1f1f;
+  }
+  .text-gray-800 {
+    color: #2d2d2d;
+  }
+  .text-gray-700 {
+    color: #3a3a3a;
+  }
+  .text-gray-600 {
+    color: #757575;
+  }
+  .text-gray-100 {
+    color: #e9e9e9;
+  }
+  .text-gray-50 {
+    color: #f4f4f4;
+  }
+  .text-white {
+    color: #fff;
+  }
+  .bg-accent-purple {
+    background-color: #a445ed;
+  }
+
+  .bg-accent-red {
+    background-color: #ff5252;
+  }
+  .text-accent-purple {
+    color: #a445ed;
+  }
+  .text-accent-red {
+    color: #ff5252;
+  }
+
+  .border-accent-purple {
+    border-color: #a445ed;
+  }
+}
+
+.heading-l {
+  font-size: 64px;
+  line-height: 77px;
+  font-weight: 700;
+}
+.heading-m {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 500;
+}
+.heading-s {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 500;
+}
+.body-m {
+  font-size: 18px;
+  line-height: 24px;
+}
+.body-s {
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.caret-accent-purple {
+  caret-color: #a445ed;
+}
+
+.text-accent-purple {
+  color: #a445ed;
+}
